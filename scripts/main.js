@@ -28,7 +28,12 @@ let hitchhikers_guide = {
         }
     }
 };
+ 
+let meaning = hitchhikers_guide.random_facts.ultimate_answer.meaning_of_life;
 
-let meaning = "meaning_of_life"
+console.log(meaning);
+console.log(hitchhikers_guide.random_facts.ultimate_answer.meaning_of_life);
 
-console.log(hitchhikers_guide.meaning);
+let meaning2 = [hitchhikers_guide.random_facts.ultimate_answer.meaning_of_life];
+console.log(meaning2);
+console.log([hitchhikers_guide.random_facts.ultimate_answer.meaning_of_life]);
